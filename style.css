@@ -353,12 +353,48 @@ nav {
   align-items: center;
   margin-right: 30px;
 }
-.post-profile-icon{
-    display: flex;
-    align-items: center;
+.post-profile-icon {
+  display: flex;
+  align-items: center;
 }
-.post-profile-icon img{
-    width: 20px;
-    border-radius: 50%;
-    margin-right: 5px;
+.post-profile-icon img {
+  width: 20px;
+  border-radius: 50%;
+  margin-right: 5px;
+}
+.post-row a {
+  color: #9a9a9a;
+}
+.load-more-btn {
+  display: block;
+  margin: auto;
+  cursor: pointer;
+  padding: 5px 10px;
+  border: 1px solid #9a9a9a;
+  color: #626262;
+  background: transparent;
+  border-radius: 4px;
+}
+.footer {
+  text-align: center;
+  color: #9a9a9a;
+  padding: 10px 0 20px;
+  font-size: 13px;
+}
+.settings-menu {
+  position: absolute;
+  width: 90%;
+  max-width: 350px;
+  height: 500px;
+  background: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+  border-radius: 4px;
+  overflow: hidden;
+  top: 100%;
+  right: 5%;
+}
+.user-profile a {
+  font-size: 12px;
+  color: #1876f2;
+  text-decoration: none;
 }
