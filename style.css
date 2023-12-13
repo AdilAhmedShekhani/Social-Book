@@ -9,9 +9,8 @@
   --body-color: #efefef;
   --nav-color: #1876f2;
   --bg-color: #fff;
-
 }
-.dark-theme{
+.dark-theme {
   --body-color: #0a0a0a;
   --nav-color: #000;
   --bg-color: #000;
@@ -325,7 +324,7 @@ nav {
 }
 .post-container {
   width: 100%;
-  background:var(--bg-color);
+  background: var(--bg-color);
   border-radius: 6px;
   padding: 20px;
   color: #626262;
@@ -466,4 +465,114 @@ nav {
 #dark-btn.dark-btn-on {
   padding-left: 23px;
   background: #0a0a0a;
+}
+
+/* Profile Page  */
+
+.profile-container {
+  padding: 20px 15%;
+  color: #626262;
+}
+.cover-img {
+  width: 100%;
+  border-radius: 6px;
+  margin-bottom: 14px;
+}
+.profile-dtails {
+  background: var(--bg-color);
+  padding: 20px;
+  border-radius: 4px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+.pd-row {
+  display: flex;
+  align-items: flex-start;
+}
+.pd-image {
+  width: 100px;
+  margin-right: 20px;
+  border-radius: 6px;
+}
+.pd-row div h3 {
+  font-size: 25px;
+  font-weight: 600;
+}
+.pd-row div p {
+  font-size: 13px;
+}
+.pd-row div img {
+  width: 25px;
+  border-radius: 50%;
+  margin-top: 12px;
+}
+.pd-right button {
+  background: #1876f2;
+  border: 0;
+  outline: 0;
+  padding: 6px 10px;
+  display: inline;
+  align-items: center;
+  color: #fff;
+  border-radius: 3px;
+  margin-left: 10px;
+  cursor: pointer;
+}
+.pd-right button img {
+  height: 15px;
+  margin-right: 10px;
+}
+.pd-right button:first-child {
+  background: #e4e6eb;
+  color: #000;
+}
+.pd-right {
+  text-align: right;
+}
+.pd-right a {
+  background: #e4e6eb;
+  border-radius: 3px;
+  padding: 12px;
+  display: inline-flex;
+  margin-top: 30px;
+}
+.pd-right a img {
+  width: 20px;
+}
+.profile-info {
+  display: flex;
+  align-self: flex-start;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+.info-col {
+  flex-basis: 33%;
+}
+.post-col {
+  flex-basis: 65%;
+}
+.profile-intro {
+  background: var(--bg-color);
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 4px;
+}
+.profile-intro h3 {
+  font-weight: 600;
+}
+.intro-text {
+  text-align: center;
+  margin: 10px 0;
+  font-size: 15px;
+}
+.intro-text img {
+  width: 15px;
+  margin-bottom: -3px;
+}
+.profile-intro hr {
+  border: 0;
+  height: 1px;
+  background: #ccc;
+  margin: 24px 0;
 }
