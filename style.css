@@ -576,3 +576,143 @@ nav {
   background: #ccc;
   margin: 24px 0;
 }
+.profile-intro ul li {
+  list-style: none;
+  font-size: 15px;
+  margin: 15px 0;
+  display: flex;
+  align-items: center;
+}
+.profile-intro ul li img {
+  width: 26px;
+  margin-right: 10px;
+}
+.title-box {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.title-box a {
+  text-decoration: none;
+  color: #18576f;
+  font-size: 14px;
+}
+.photo-box {
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  grid-gap: 10px;
+  margin-top: 15px;
+}
+.photo-box div img {
+  width: 100%;
+  cursor: pointer;
+}
+.profile-intro p {
+  font-size: 14px;
+}
+.friends-box {
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  grid-gap: 10px;
+  margin-top: 15px;
+}
+.friends-box div img {
+  width: 100%;
+  cursor: pointer;
+  padding-bottom: 20px;
+}
+.friends-box div {
+  position: relative;
+}
+.friends-box p {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+/* ---------- Media Query for Home Page --------- */
+
+@media (max-width: 900px) {
+  .right-sidebar {
+    display: none;
+  }
+  .left-sidebar {
+    display: none;
+  }
+  nav {
+    flex-wrap: wrap;
+  }
+  .search-box {
+    display: none;
+  }
+  .logo {
+    width: 110px;
+    margin-right: 20px;
+  }
+  .nav-left ul li img {
+    width: 20px;
+    margin: 0 8px;
+  }
+  .nav-user-icon img {
+    width: 30px;
+  }
+  .nav-user-icon {
+    margin-left: 0;
+  }
+  .add-post-links {
+    flex-wrap: wrap;
+  }
+  .main-content {
+    flex-basis: 100%;
+  }
+  .story img {
+    width: 20px;
+    border-width: 3px;
+  }
+  .story p {
+    font-size: 10px;
+  }
+  .story.story1 img {
+    width: 25px;
+    bottom: 30px;
+  }
+  .add-post-links a {
+    margin-right: 12px;
+    font-size: 9px;
+  }
+  .add-post-links a img {
+    width: 16px;
+    margin-right: 5px;
+  }
+  .post-input-container {
+    padding-left: 0;
+  }
+}
+/* --------------- Media Query For Profile page ---------- */
+
+@media (max-width: 900px) {
+  .profile-container {
+    padding: 20px 5%;
+  }
+  .profile-dtails {
+    flex-wrap: wrap;
+  }
+  .pd-right {
+    text-align: left;
+    margin-top: 15px;
+  }
+  .pd-right button {
+    margin-left: 0;
+    margin-right: 10px;
+  }
+  .pd-row div h3 {
+    font-size: 16px;
+  }
+  .profile-info {
+    flex-wrap: wrap;
+  }
+  .info-col,
+  .post-col {
+    flex-basis: 100%;
+  }
+}
